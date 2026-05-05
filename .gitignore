@@ -1,0 +1,29 @@
+# Temporary downloaded papers
+src/tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Personal Claude memory (contains user-specific data)
+.claude/memory/
+.claude/agent-memory/
+
+# Local settings (contains user-specific config)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+.venv/
